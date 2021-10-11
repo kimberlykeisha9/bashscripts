@@ -25,7 +25,10 @@ if [[ $input == 'Y' || 'y' ]]; then
     echo "$filename in $(pwd) \n"
     
  elif [[ $input == 'N' || 'n' ]]; then
- 
+    # ----------------------
+    #   TODO -> Make sure that the user
+    #          is sure about NOT saving the file
+    # ----------------------
      echo "No file has been saved! Bye?" 
     
 fi
