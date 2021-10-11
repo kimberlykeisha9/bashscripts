@@ -21,11 +21,11 @@ if [[ $input == 'Y' || 'y' ]]; then
 
     touch $filename 
     
-    echo "The file has been saved as \n"
+    echo "The file has been saved as"
     echo "$filename in $(pwd) \n"
     
  elif [[ $input == 'N' || 'n' ]]; then
  
-     echo "No file has been saved! Bye? \n" 
+     echo "No file has been saved! Bye?" 
     
 fi
